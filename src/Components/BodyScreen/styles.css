@@ -1,0 +1,18 @@
+.selectElejir{
+    width: 100%;
+}
+.actividad{
+    width: 80;
+}
+.responseData{
+    width: 10px;
+    height: 800px;
+
+}
+.container{
+    align-items: center;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

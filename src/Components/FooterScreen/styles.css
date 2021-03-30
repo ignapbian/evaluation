@@ -1,0 +1,11 @@
+.logo{
+    width: 20%;
+    height:  20%;
+}
+.footer{
+    margin-top: 60px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 1px solid #dcdcdc;
+}
