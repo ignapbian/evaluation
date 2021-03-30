@@ -61,9 +61,9 @@ export default class Body extends Component {
                 <img src={imageCoach} alt="Responsive image" />
                 <h2>Evalúa y mejora tu negocio</h2>
                 <div className="form-group">
-                    <input type="text" className="form-control" onChange={this.handleNIFChange} placeholder="NIF"/>
+                    <input type="text" className="input form-control" onChange={this.handleNIFChange} placeholder="NIF"/>
                 </div>
-                    <Select options={this.state.selectOptions} onChange={this.handleSectorChange.bind(this)} placeholder="Sector de Actividad"/>
+                    <Select classNamePrefix="input" options={this.state.selectOptions} onChange={this.handleSectorChange.bind(this)} placeholder="Sector de Actividad"/>
                 <div className=" button row justify-content-center">
                     <button className="btn btn-primary" type="submit" onClick={this.continuar.bind(this)}>Continuar</button>
                 </div>
